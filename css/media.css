@@ -55,14 +55,6 @@
 	.banner h1{
 		font-size: 40px;
 	}
-	.contact h4{
-		margin-bottom: 10px;
-		font-weight: 700;
-	}
-	.subtitle{
-		margin: 20px 0 10px;
-		font-weight: 700;
-	}
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
