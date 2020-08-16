@@ -1,177 +1,65 @@
 @font-face{
-	src: url(../fonts/ProximaNova-Regular.otf);
-	font-family: ProximaNova-Regular;
+	src: url(../fonts/forever-brush-script-regular.ttf);
+	font-family: forever-brush-script-regular;
 }
 @font-face{
 	src: url(../fonts/ProximaNova-Thin.otf);
 	font-family: ProximaNova-Thin;
 }
 @font-face{
-	src: url(../fonts/forever-brush-script-regular.ttf);
-	font-family: forever-brush-script-regular;
+	src: url(../fonts/ProximaNovaAlt-Regular.otf);
+	font-family: ProximaNovaAlt-Regular;
 }
-@font-face{
-	src: url(../fonts/FontAwesome5Brands-Regular-400.otf);
-	font-family: FontAwesome5Brands-Regular-400;
-}
-@font-face{
-	src: url(../fonts/FontAwesome5Free-Solid-900.otf);
-	font-family: FontAwesome5Free-Solid-900;
-}
-/*Commons*/
-.common_title{
-	font-family: forever-brush-script-regular;
-	font-size: 56px;
-	font-weight: 400;
+/*font-family: 'Roboto', sans-serif;*/
+body{
+	font-family: ProximaNovaAlt-Regular;
 	color: #fff;
-	text-align: center;
-}
-.common_text{
-	font-family: ProximaNova-Regular;
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
 }
 /*header start*/
 header{
-	padding: 20px 0;
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/header_bg.jpg);
-	background: url(../images/Pexels Videos 1494280.mp4);
-	background-repeat: no-repeat;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/header_bg.jpg);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
+/*navigation start*/
 .logo{
 	font-family: ProximaNova-Thin;
 	font-size: 31px;
 	font-weight: 100;
+	color: #fff!important;
 }
-.menubar a{
-	font-family: ProximaNova-Regular;
+.navigation ul li a{
+	color: #fff!important;
+	padding:0 23px!important;
+	transition: 0.3s ease-in;
 }
+.navigation ul li:last-child a{
+	padding: 0!important;
+}
+.navigation ul li a:hover{
+	color: #c0235a!important;
+}
+/*navigation end*/
+/*banner start*/
 .banner{
-	margin: 250px 0 100px;
+	padding: 250px 0;
+}
+.banner_content{
 	text-align: center;
 }
-.banner h1{
+.banner_content h1{
 	font-family: ProximaNova-Thin;
 	font-size: 72px;
 	font-weight: 100;
-	color: #fff;
+	margin: 0 0 50px;
 	text-transform: uppercase;
 }
-.banner p{
-	font-family: ProximaNova-Regular;
+.banner_content p{
 	font-size: 18px;
-	color: #fff;
+	margin: 0;
 }
+/*banner end*/
 /*header end*/
-/*story start*/
-.story{
-	padding: 120px 0;
-	background: #962323;
-}
-.story hr{
-	width: 15%;
-	border-top: 2px solid #fff;
-}
-/*story end*/
-/*Recipes start*/
-.recipes{
-	padding: 120px 0;
-	background: url(../images/recipes_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;	
-}
-.recipes hr{
-	width: 10%;
-	border-top: 2px solid #c8235d;
-}
-/*Recipes end*/
-/*Menu start*/
-.menu{
-	padding: 120px 0;
-	background: #f3f4f7;
-}
-.menu h1{
-	color: #0b0c0d;
-}
-.menu hr{
-	margin-bottom: 100px;
-	width: 10%;
-	border-top: 2px solid #c8235d;
-}
-.menu h4{
-	font-family: ProximaNova-Regular;
-	font-size: 16px;
-	font-weight: 400;
-	color: #0b0c0d;
-}
-.menu span{
-	font-family: ProximaNova-Regular;
-	font-size: 16px;
-	color: #c8235d;
-}
-.menu p{
-	margin-bottom: 50px;
-	font-family: ProximaNova-Regular;
-	font-size: 16px;
-	color: #0b0c0d;
-}
-/*Menu end*/
-/*contact start*/
-.contact{
-	padding: 80px 0;
-	color: #fff;
-	background: #25262a;
-}
-.subtitle{
-	margin-bottom: 50px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-}
-.contact h4{
-	margin-bottom: 50px;
-	font-family: FontAwesome5Brands-Regular-400;
-	font-size: 26px;
-	font-weight: 400;
-	color: #fff;
-}
-.contact p{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	color: #fff;
-}
-.contact ul{
-	list-style-type: none;
-	margin:0;
-	padding: 0;
-}
-.contact ul li a{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	color: #fff;
-	text-decoration: none;
-}
-.contact i{
-	font-family: FontAwesome5Free-Solid-900;
-	font-size: 14px;
-	font-weight: 900;
-	color: #c8235d;
-}
-/*contact end*/
-/*footer start*/
-footer{
-	padding: 50px 0;
-	background: #16171b;
-}
-footer p,footer a{
-	font-family: 'Roboto', sans-serif;
-	color: #8b8b8d;
-}
-footer a:hover{
-	color: #fff;
-}
-/*footer end*/
+
+
