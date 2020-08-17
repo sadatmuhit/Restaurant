@@ -21,6 +21,7 @@ header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 /*navigation start*/
 .logo{
@@ -90,6 +91,7 @@ header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 .recipe_content{
 	text-align: center;
@@ -178,11 +180,14 @@ footer{
 	color: rgba(255,255,255,0.5);
 	padding:0 15px;
 }
-/*.footer_ilink{
-	text-align: center;
-}*/
+.footer_link a:hover{
+        color: #fff;
+}
 .footer_ilink li a i{
 	color: rgba(255,255,255,0.5);
 	padding: 0 5px;
+}
+.footer_ilink li a i:hover{
+        color:#fff;
 }
 /*footer end*/
