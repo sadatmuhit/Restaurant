@@ -21,7 +21,7 @@ header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-        background-attachment: fixed;
+	background-attachment: fixed;
 }
 /*navigation start*/
 .logo{
@@ -72,6 +72,7 @@ header{
 }
 .common_title{
 	font-family: forever-brush-script-regular;
+	font-weight: 400;
 	font-size: 56px;
 }
 .common_hr{
@@ -91,7 +92,7 @@ header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-        background-attachment: fixed;
+	background-attachment: fixed;
 }
 .recipe_content{
 	text-align: center;
@@ -130,44 +131,35 @@ header{
 	padding: 100px 0;
 	background: #25262a;
 }
-.single1{}
-.single1 h3{
+.single h3{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 26px;
-	margin: 0;
+	margin-bottom: 50px;
 }
-.single1 p{
+.single p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	margin-top: 50px;
+	margin:0;
 	word-spacing: 2px;
 }
-.sub_item{}
-.sub_title{
+.single h4{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	margin-bottom: 58px;
 }
-.sub_item ul li a{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+.single p a{
 	color: #fff;
 	text-decoration: none;
+	transition: 0.3s ease-in;
 }
-.sub_item ul li a:hover{
+.single p a:hover{
 	color: #c0235a;
 }
-.single3 ul li{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	margin: 2px 0;
-}
-.single3 ul li span{
-	color: #c8235d;
-	margin-right: 10px;
+.single p i{
+	color: #c0235a;
+	padding-right: 10px;
 }
 /*contact end*/
 /*footer start*/
@@ -179,15 +171,17 @@ footer{
 	font-family: 'Roboto', sans-serif;
 	color: rgba(255,255,255,0.5);
 	padding:0 15px;
+	transition: 0.3s ease-in;
 }
 .footer_link a:hover{
-        color: #fff;
+	color:	#fff;
 }
 .footer_ilink li a i{
 	color: rgba(255,255,255,0.5);
 	padding: 0 5px;
+	transition: 0.3s ease-in;
 }
 .footer_ilink li a i:hover{
-        color:#fff;
+	color: #fff;
 }
 /*footer end*/
