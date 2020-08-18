@@ -50,19 +50,17 @@
 /*menu end*/
 /*contact start*/
 .contact{
-	padding: 50px 0;
+	padding: 10px 0 50px;
 }
-.single1 p{
-	margin-top: 20px;
+.single{
+	margin-top: 40px;
+	text-align: center;
 }
-.sub_item{
-	margin-top:30px;
-}
-.sub_title{
+.single h3,.single h4{
 	margin-bottom: 20px;
 }
-.single3{
-	margin-top: 30px;
+.single p{
+	word-spacing: 0;
 }
 /*contact end*/
 /*footer start*/
@@ -128,19 +126,16 @@ footer{
 /*menu end*/
 /*contact start*/
 .contact{
-	padding: 50px 0;
+	padding: 10px 0 50px;
 }
-.single1 p{
-	margin-top: 20px;
+.single{
+	margin-top: 40px;
 }
-.sub_item{
-	margin-top:30px;
-}
-.sub_title{
+.single h3,.single h4{
 	margin-bottom: 20px;
 }
-.single3{
-	margin-top: 30px;
+.single p{
+	word-spacing: 0;
 }
 /*contact end*/
 /*footer start*/
@@ -174,7 +169,10 @@ footer{
 }
 /*menu end*/
 /*contact start*/
-.single3 ul li span{
+.single p{
+	word-spacing: 0;
+}
+.single p i{
 	display: none;
 }
 /*contact end*/
