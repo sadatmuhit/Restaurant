@@ -1,189 +1,106 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-/*header start*/
-.navigation ul li a{
-	padding: 0!important;
+    .menubar ul li a {
+        padding: 5px 0 0px!important;
+    }
+    .bgnav {
+        padding: 8px 15px;
+    }
+    #banner {
+        padding: 150px 0 50px;
+    }
+    .banner_content h1 {
+        font-size: 26px;
+    }
+    #about,
+    #menu {
+        padding: 50px 0;
+    }
+    .ab_content {
+        margin-top: 20px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .cmn_text {
+        margin-top: 20px;
+    }
+    .recipe {
+        padding: 50px 0;
+    }
+    .menu_item {
+        margin-top: 40px;
+    }
+    .menu_item h2 span {
+        display: block;
+        margin-top: 16px;
+    }
+    #contact {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .single {
+        margin-top: 30px;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
 }
-.banner {
-    padding: 70px 0;
-}
-.banner_content h1{
-	font-size: 28px;
-}
-.banner_content p{
-	font-size: 16px;
-}
-/*header end*/
-/*story start*/
-.story{
-	padding: 50px 0;
-}
-.story_content{
-	margin-bottom: 30px;
-}
-.common_title{
-	font-size: 38px;
-}
-.common_hr{
-	margin-bottom: 30px;
-}
-.common_text{
-	font-size: 16px;
-}
-/*story end*/
-/*recipe start*/
-.recipe{
-	padding: 50px 0;
-}
-/*recipe end*/
-/*menu start*/
-.menu{
-	padding: 50px 0;
-}
-.menu_item{
-	margin-top: 50px;
-}
-.menu_item h2 span{
-	display: block;
-	margin-top: 15px;
-}
-/*menu end*/
-/*contact start*/
-.contact{
-	padding: 10px 0 50px;
-}
-.single{
-	margin-top: 40px;
-	text-align: center;
-}
-.single h3,.single h4{
-	margin-bottom: 20px;
-}
-.single p{
-	word-spacing: 0;
-}
-/*contact end*/
-/*footer start*/
-footer{
-	padding: 15px 0;
-}
-.footer_ilink{
-	text-align: center;
-}
-/*footer end*/
-
-}
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-/*header start*/
-.navigation ul li a{
-	padding: 0!important;
+    .menubar ul li a {
+        padding: 5px 0 0px!important;
+    }
+    .banner_content h1 {
+        font-size: 40px;
+    }
+    #banner {
+        padding: 200px 0 150px;
+    }
+    #about,
+    #menu {
+        padding: 70px 0;
+    }
+    .title {
+        font-size: 46px;
+    }
+    .cmn_text,
+    .ab_content {
+        margin-top: 30px;
+    }
+    .recipe {
+        padding: 70px 0;
+    }
+    .menu_item {
+        margin-top: 40px;
+    }
+    .menu_item h2 span {
+        display: block;
+        margin-top: 16px;
+    }
+    .single {
+        margin-top: 40px;
+    }
+    #contact {
+        padding-bottom: 70px;
+        padding-top: 30px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer ul {
+        margin-bottom: 10px;
+    }
 }
-.banner {
-    padding: 100px 0;
-}
-.banner_content h1{
-	font-size: 36px;
-}
-.banner_content p{
-	font-size: 16px;
-}
-/*header end*/
-/*story start*/
-.story{
-	padding: 50px 0;
-}
-.story_content{
-	margin-bottom: 30px;
-}
-.common_title{
-	font-size: 50px;
-}
-.common_hr{
-	margin-bottom: 30px;
-}
-.common_text{
-	font-size: 16px;
-}
-/*story end*/
-/*recipe start*/
-.recipe{
-	padding: 50px 0;
-}
-/*recipe end*/
-/*menu start*/
-.menu{
-	padding: 50px 0;
-}
-.menu_item{
-	margin-top: 50px;
-}
-.menu_item h2 span{
-	display: block;
-	margin-top: 15px;
-}
-/*menu end*/
-/*contact start*/
-.contact{
-	padding: 10px 0 50px;
-}
-.single{
-	margin-top: 40px;
-}
-.single h3,.single h4{
-	margin-bottom: 20px;
-}
-.single p{
-	word-spacing: 0;
-}
-/*contact end*/
-/*footer start*/
-footer{
-	padding: 15px 0;
-}
-.footer_ilink{
-	text-align: center;
-}
-/*footer end*/
-
-}
-
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-/*header start*/
-.navigation ul li a{
-	padding: 0!important;
+    .menu_item h2 span {
+        display: block;
+        margin-top: 16px;
+    }
 }
-.banner {
-    padding: 100px 0;
-}
-.banner_content h1{
-	font-size: 48px;
-}
-/*header end*/
-/*menu start*/
-.menu_item h2 span{
-	display: block;
-	margin-top: 15px;
-}
-/*menu end*/
-/*contact start*/
-.single p{
-	word-spacing: 0;
-}
-.single p i{
-	display: none;
-}
-/*contact end*/
-}
-
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
-}
-
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	
-}
+@media (min-width: 1200px) {}
